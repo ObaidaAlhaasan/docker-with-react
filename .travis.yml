@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t al1awlam/docker-with-react -f Dockerfile.dev .
+
+scripts:
+  - docker run -e CI=true al1awlam/docker-with-react npm run test
