@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          the magic is coming soon
+          the magic is coming soon this build by Docker and react and deployed to AWS :)
         </p>
         <a
           className="App-link"
